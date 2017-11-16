@@ -3,3 +3,16 @@ server:
 
 service1:
   create_url: "http://localhost:8081/open_info"
+
+spring:
+  application:
+    name: s2
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+  instance:
+    hostname: localhost
