@@ -42,6 +42,7 @@ dependencies {
 	compile("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
 	compile ("org.springframework.boot:spring-boot-starter-actuator")
 	compile("org.springframework.cloud:spring-cloud-starter-eureka")
+	compile("org.springframework.cloud:spring-cloud-starter-hystrix")
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	// Jackson Dependencies
 	compile "com.fasterxml.jackson.core:jackson-annotations"
